@@ -9,24 +9,18 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="Header Files\1221. Split a String in Balanced Strings">
+      <UniqueIdentifier>{eef76560-d3cc-469c-9f14-797be40fc0f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Gcd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lcm.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Gcd.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lcm.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="1221.BalancedString.h">
+      <Filter>Header Files\1221. Split a String in Balanced Strings</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

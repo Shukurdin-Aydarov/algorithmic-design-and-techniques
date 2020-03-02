@@ -6,14 +6,14 @@
 
 using std::to_string;
 
-void Test_getMinimalTotalWaitingTime();
-void Test_getPointsCover();
+void test_getMinimalTotalWaitingTime();
+void test_getPointsCover();
 
 int main() {
 	try
 	{
-		Test_getMinimalTotalWaitingTime();
-		Test_getPointsCover();
+		test_getMinimalTotalWaitingTime();
+		test_getPointsCover();
 
 		std::cout << "Success";
 	}
@@ -23,7 +23,7 @@ int main() {
 	}
 }
 
-void Test_getMinimalTotalWaitingTime()
+void test_getMinimalTotalWaitingTime()
 {
 	vector<Patient> patients = 
 	{ 
@@ -40,7 +40,7 @@ void Test_getMinimalTotalWaitingTime()
 		throw std::logic_error("Expected 96, but totalTime equals to " + to_string(totalTime));
 }
 
-void Test_getPointsCover()
+void test_getPointsCover()
 {
 	vector<int> numbers = { 5, 6, 3, 7, 10, 11, 12 };
 

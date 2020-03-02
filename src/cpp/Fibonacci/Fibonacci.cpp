@@ -21,7 +21,7 @@ int64_t Fibonacci::Efficient(int n) {
 int64_t Fibonacci::Naive(int n) {
     if (n <= 1) return n;
 
-    return Naive(n - 1) + Naive(n - 2);
+    return Naive(n - 1)  + Naive(n - 2);
 }
  
 int Fibonacci::LastDigitOfLargeFibonacciNumber(int n) {
