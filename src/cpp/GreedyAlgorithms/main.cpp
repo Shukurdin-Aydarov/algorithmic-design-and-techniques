@@ -37,7 +37,7 @@ void Test_getMinimalTotalWaitingTime()
 	auto totalTime = minimizeTotalWaitingTime(patients);
 
 	if (totalTime != 96)
-		throw std::logic_error("Expected 96, but totalTime = " + to_string(totalTime));
+		throw std::logic_error("Expected 96, but totalTime equals to " + to_string(totalTime));
 }
 
 void Test_getPointsCover()
@@ -47,5 +47,5 @@ void Test_getPointsCover()
 	auto groups = getPointsCover(numbers);
 
 	if (groups.size() != 3)
-		throw std::logic_error("Expected 3, but groups = " + to_string(groups.size()));
+		throw std::logic_error("Expected 3, but groups equals to " + to_string(groups.size()));
 }
